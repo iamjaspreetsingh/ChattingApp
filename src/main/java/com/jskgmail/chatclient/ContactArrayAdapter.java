@@ -14,9 +14,7 @@ import java.util.List;
 
 import static com.jskgmail.chatclient.Constants.SERVER;
 
-/**
- * Created by muppala on 18/6/16.
- */
+
 public class ContactArrayAdapter  extends ArrayAdapter<Contacts.FriendInfo> {
     private final Context context;
     private final List<Contacts.FriendInfo> friendInfoArrayList;
@@ -44,7 +42,7 @@ public class ContactArrayAdapter  extends ArrayAdapter<Contacts.FriendInfo> {
 
         // This set of steps are used to load the friend's picture into the ImageView. We take
         // the help of the Picasso image downloading library to do this for us asynchronously
-        // TODO Asynchronously load the images from the server using Picasso.
+        // Asynchronously load the images from the server using Picasso.
         ImageView imageView = (ImageView) friendInfoView.findViewById(R.id.avatar);
         Picasso.with(context)
                 .load(SERVER+friendInfoArrayList.get(position).imageURL)

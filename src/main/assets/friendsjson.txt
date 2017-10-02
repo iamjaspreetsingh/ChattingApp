@@ -1,26 +1,26 @@
 [
     {
       "id": 1,
-      "name": "John",
-      "statusMsg": "Imagine all the people ...",
-      "imageURL":"John.png"
+      "name": "Rohit",
+      "statusMsg": "Try till you achieve ...",
+      "imageURL":"rohit.png"
     },
     {
       "id": 2,
-      "name": "Paul",
+      "name": "Smith",
       "statusMsg": "Let it be ...",
-      "imageURL":"Paul.png"
+      "imageURL":"smith.png"
     },
     {
       "id": 3,
-      "name": "George",
-      "statusMsg": "Wait mister postman ...",
-      "imageURL":"George.png"
+      "name": "Maxwell",
+      "statusMsg": "My style ...",
+      "imageURL":"maxwell.png"
     },
     {
       "id": 4,
-      "name": "Ringo",
-      "statusMsg": "Yellow submarine ...",
-      "imageURL":"Ringo.png"
+      "name": "Virat",
+      "statusMsg": "Relentless ...",
+      "imageURL":"Kohli.png"
     }
   ]
